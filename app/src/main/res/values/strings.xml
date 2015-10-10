@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sc Army Builder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Sc Army Builder</string>
+    <string name="title_activity_menu">Sc Army Builder</string>
+    <string name="title_activity_race_selector">Sc Army Builder</string>
+    <string name="title_activity_terran_units">Sc Army Builder</string>
+    <string name="title_activity_protoss_units">Sc Army Builder</string>
+    <string name="title_activity_zerg_units">Sc Army Builder</string>
+    <string name="title_activity_view_armies">Sc Army Builder</string>
+    <string name="title_activity_view_army">ViewArmy</string>
+    <string name="title_activity_army_delete">ArmyDelete</string>
+</resources>

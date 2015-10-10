@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="scarmy.za.ac.cput.ScArmyBuilder.TerranUnits"
+    android:background="#673AB7"
+    android:id="@+id/terranunits">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terran Units"
+        android:id="@+id/textView22"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Pop Cap:"
+        android:id="@+id/textView25"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignRight="@+id/btnCruiser"
+        android:layout_alignEnd="@+id/btnCruiser" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/txtpopT"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_alignRight="@+id/textView22"
+        android:layout_alignEnd="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/200"
+        android:id="@+id/textView27"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/txtpopT"
+        android:layout_toRightOf="@+id/txtpopT"
+        android:layout_toEndOf="@+id/txtpopT" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marine"
+        android:id="@+id/btnMarine"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghost"
+        android:id="@+id/btnGhost"
+        android:layout_below="@+id/btnMarine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battlecruiser"
+        android:id="@+id/btnCruiser"
+        android:layout_below="@+id/btnGhost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hellion"
+        android:id="@+id/btnHellion"
+        android:layout_below="@+id/btnCruiser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reaper"
+        android:id="@+id/btnReaper"
+        android:layout_below="@+id/btnHellion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marauder"
+        android:id="@+id/btnMarauder"
+        android:layout_alignTop="@+id/btnMarine"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="#673AB7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banshee"
+        android:id="@+id/btnBanshee"
+        android:layout_alignTop="@+id/btnGhost"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viking"
+        android:id="@+id/btnViking"
+        android:layout_below="@+id/btnBanshee"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siege Tank"
+        android:id="@+id/btnSiegetank"
+        android:layout_alignTop="@+id/btnHellion"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thor"
+        android:id="@+id/btnThor"
+        android:layout_alignTop="@+id/btnReaper"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/btnCreateT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btnCancelT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:background="#673AB7"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Army Name:"
+        android:id="@+id/textView33"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtArmyNameT"
+        android:background="#FFFFFF"
+        android:hint="Army name"
+        android:layout_alignBottom="@+id/textView33"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/btnSiegetank"
+        android:layout_alignStart="@+id/btnSiegetank" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:id="@+id/btnHelpT"
+        android:textSize="8dp"
+        android:background="#673AB7"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
